@@ -24,7 +24,7 @@ html {
 img,
 picture source {
     max-width: 100%;
-    border-radius: 5px 5px;
+    border-radius: 5px 5px 0px 0px;
 }
 
 button,
