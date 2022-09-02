@@ -8,6 +8,7 @@
     --Very-dark-blue: hsl(212, 21%, 14%);
     --Dark-grayish-blue: hsl(228, 12%, 48%);
     --White: hsl(0, 0%, 100%);
+    --Active: hsl(158, 60%, 21%);
 }
 
 html {
@@ -41,6 +42,9 @@ body {
     background-color: var(--Cream);
     color: var(--Dark-grayish-blue);
     height: 100vh;
+}
+
+main {
     display: grid;
     grid-template-rows: 95% 5%;
     justify-content: center;
@@ -114,6 +118,11 @@ ul li {
     width: 100%;
     margin: auto;
     margin-bottom: 2rem;
+    cursor: hand;
+}
+
+.btn:hover {
+    background-color: var(--Active);
 }
 
 svg {
